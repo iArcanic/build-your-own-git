@@ -3,12 +3,14 @@
 from .init import init_command
 from .cat_file import cat_file_command
 from .hash_object import hash_object_command
+from .ls_tree import ls_tree_command
 
 
 commands = {
     "init": init_command,
     "cat-file": cat_file_command,
     "hash-object": hash_object_command,
+    "ls-tree": ls_tree_command,
 }
 
 
