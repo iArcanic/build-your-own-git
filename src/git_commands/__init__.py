@@ -5,6 +5,7 @@ from .cat_file import cat_file_command
 from .hash_object import hash_object_command
 from .ls_tree import ls_tree_command
 from .write_tree import write_tree_command
+from .commit_tree import commit_tree_command
 
 
 commands = {
@@ -13,6 +14,7 @@ commands = {
     "hash-object": hash_object_command,
     "ls-tree": ls_tree_command,
     "write-tree": write_tree_command,
+    "commit-tree": commit_tree_command,
 }
 
 
