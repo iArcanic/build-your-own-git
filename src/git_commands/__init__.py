@@ -6,6 +6,7 @@ from .hash_object import hash_object_command
 from .ls_tree import ls_tree_command
 from .write_tree import write_tree_command
 from .commit_tree import commit_tree_command
+from .clone import clone_command
 
 
 commands = {
@@ -15,6 +16,7 @@ commands = {
     "ls-tree": ls_tree_command,
     "write-tree": write_tree_command,
     "commit-tree": commit_tree_command,
+    "clone": clone_command,
 }
 
 
