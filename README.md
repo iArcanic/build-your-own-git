@@ -14,7 +14,13 @@ pip3 install -r requirements.txt
 python3 main.py <git_command>
 ```
 
-See [`src/git_commands`](https://github.com/iArcanic/build-your-own-git/tree/main/src/git_commands) for a list of valid commands and their usage.
+For a list of valid commands and their usage or use:
+
+```bash
+python3 main.py help
+```
+
+Alternatively, see [`src/git_commands`](https://github.com/iArcanic/build-your-own-git/tree/main/src/git_commands).
 
 ## 2 Features
 
@@ -69,7 +75,7 @@ pip3 install -r requirements.txt
 cd src
 ```
 
-5. Run the main Python script with a valid Git command (see [src/git_commands](https://github.com/iArcanic/build-your-own-git/tree/main/src/git_commands) for a list of valid commands and their usage).
+5. Run the main Python script with a valid Git command (use `python3 main.py help` for a list of valid commands and their usage).
 
 ```bash
 python3 main.py <git_command>
