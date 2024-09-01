@@ -7,6 +7,7 @@ from .ls_tree import ls_tree_command
 from .write_tree import write_tree_command
 from .commit_tree import commit_tree_command
 from .clone import clone_command
+from .help import help_command
 
 # Dictionary mapping to command name strings to function names
 commands = {
@@ -17,6 +18,7 @@ commands = {
     "write-tree": write_tree_command,
     "commit-tree": commit_tree_command,
     "clone": clone_command,
+    "help": help_command,
 }
 
 

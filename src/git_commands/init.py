@@ -5,7 +5,7 @@ import os
 
 def init_command(args):
     """
-    Initializes a new Git repository structure in the current directory.
+    Initialises a new Git repository structure in the current directory.
 
     Args:
         args (list): List of command-line arguments. Not used in this function.
@@ -21,4 +21,4 @@ def init_command(args):
     with open(os.path.join(git_dir, "HEAD"), "w") as f:
         f.write("ref: refs/heads/main\n") # Points to the main branch by default
 
-    print(f"Initialized git directory at {git_dir}")
+    print(f"Initialised git directory at {git_dir}")

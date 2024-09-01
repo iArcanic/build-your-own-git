@@ -25,9 +25,11 @@ def main():
         except Exception as e:
             # Handle any exceptions raised by that command
             print(f"Error executing command '{command}': {e}")
+            print("Type 'help' to see a list of available commands and their usage")
     else:
         # If the command does not exist
         print(f"Unknown command '{command}'")
+        print("Type 'help' to see a list of available commands and their usage")
 
 
 if __name__ == "__main__":
